@@ -1,17 +1,8 @@
-import pandas as pd
-import numpy as np 
-import matplotlib.pyplot as plt
-import scipy
-import os
-import pickle
-import librosa
-import librosa.display
-from IPython.display import Audio
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-import tensorflow as tf
-from tensorflow import keras
-from sklearn.preprocessing import StandardScaler
+'''
+metrics.py - This is where all the code for getting model metrics will be written
+'''
+
+#import matplotlib.pyplot as plt <-- MAY NEED LATER
 from sklearn import metrics
 from sklearn.metrics import classification_report, confusion_matrix
 
