@@ -14,6 +14,7 @@ import models.kNN as kNN
 import models.DecisionTree as DecisionTree
 import models.GaussianBayes as GaussianBayes
 import models.RandomForests as RandomForests
+import models.Sequential as Sequential
 
 TEST_SIZE = 0.33
 
@@ -36,7 +37,8 @@ X = scalar.fit_transform(np.array(csv.iloc[:,1:-1], dtype=float))
 X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=TEST_SIZE)
 
 
-kNN.processKNN(X_train, X_test, y_train, y_test)
-DecisionTree.processDecisionTree(X_train, X_test, y_train, y_test)
-GaussianBayes.processGaussianBayes(X_train, X_test, y_train, y_test)
-RandomForests.processRandomForest(X_train, X_test, y_train, y_test)
+# kNN.processKNN(X_train, X_test, y_train, y_test)
+# DecisionTree.processDecisionTree(X_train, X_test, y_train, y_test)
+# GaussianBayes.processGaussianBayes(X_train, X_test, y_train, y_test)
+# RandomForests.processRandomForest(X_train, X_test, y_train, y_test)
+Sequential.processSequential(X_train, X_test, y_train, y_test)
