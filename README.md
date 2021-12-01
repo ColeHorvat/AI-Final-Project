@@ -10,7 +10,7 @@ Tyler Mailmain (T00614953)
 ## Install Dependencies 
 `pip3 install -r requirements.txt`
 
-## Run Main.py
+## Run main.py
 `python3 main.py`
 
 *Make sure the functions for the models you want to run are uncommented*
