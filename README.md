@@ -1,9 +1,9 @@
-# AI-Final-Project
+# AI Final Project: Music Genre Classification
 Final project for Applied Artificial Intelligence (COMP 3710_01).
 
 Cole Horvat (T00616708)
 John Rey Isla (T00614949)
-Tyler Mailmain (T00614953)
+Tyler Mailman (T00614953)
 
 # Instructions to Run Code
 
